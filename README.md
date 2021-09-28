@@ -1,6 +1,6 @@
 # SQL-Employee-Tracker-
 
-MySQL-Employee-Tracker iscommand program that make it easy for people to interact with information stored in databases. This interface is an example of a Content Management Systems; a command line application for managing a company's employees using node, inquirer, and MySQL.
+MySQL-Employee-Tracker is command program that make it easy for people to interact with information stored in databases. This interface is an example of a Content Management Systems; a command line application for managing a company's employees using node, inquirer, and MySQL.
 
 # User Story </br>
 As a business owner I want to be able to view and manage the departments, roles, and employees in my company So that I can organize and plan my business </br>
