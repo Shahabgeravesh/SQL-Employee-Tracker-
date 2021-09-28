@@ -2,45 +2,40 @@
 
 MySQL-Employee-Tracker iscommand program that make it easy for people to interact with information stored in databases. This interface is an example of a Content Management Systems; a command line application for managing a company's employees using node, inquirer, and MySQL.
 
-User Story
-As a business owner I want to be able to view and manage the departments, roles, and employees in my company So that I can organize and plan my business
+# User Story </br>
+As a business owner I want to be able to view and manage the departments, roles, and employees in my company So that I can organize and plan my business </br>
 
-Design
-This application follows the database shcema containing three variables:
+# About </br>
+Application tree structure: The application is user friendly and built to handle large amount of data </br>
 
+View All Employees - command that prints all employees in a table. Table contains employee id, employee name, title, department, salary and employee manager. </br>
 
+View All Employees By Manager - command that prints all employee managers and their associates. </br>
 
-About
-Application tree structure: The application is user friendly and built to handle large amount of data (ie: what if the company have about 10,000 employees and 1,000+ roles)
+View All Employees By Department - command that prints all departments and the employee under it. </br>
 
-View All Employees - command that prints all employees in a table. Table contains employee id, employee name, title, department, salary and employee manager.
+View All Roles - command that prints all roles/ title and the corresponding employee. </br>
 
-View All Employees By Manager - command that prints all employee managers and their associates.
+Add An Employee - command line that adds a new entry to the database. </br>
 
-View All Employees By Department - command that prints all departments and the employee under it.
+Remove An Employee - command line that deletes an employee from the database. </br>
 
-View All Roles - command that prints all roles/ title and the corresponding employee.
+Update Employee Role - command line that updates the role/ title of an employee. </br>
 
-Add An Employee - command line that adds a new entry to the database.
-
-Remove An Employee - command line that deletes an employee from the database
-
-Update Employee Role - command line that updates the role/ title of an employee.
-
-Install
-npm i - to install all file in order for npm to work
-npm i inquirer - to use inquirer (to interact with the user via command line)
-npm init - to create a json file
-npm i mysql - to connect to MySql database
-npm i mysql2
-npm console.table - to format tables
-Run
-node index.js
-Dependencies
+# Installation 
+npm i - to install all file in order for npm to work </br>
+npm i inquirer - to use inquirer (to interact with the user via command line) </br>
+npm init - to create a json file </br>
+npm i mysql - to connect to MySql database </br>
+npm i mysql2 </br>
+npm console.table - to format tables </br>
+Run </br>
+node index.js </br>
+Dependencies </br>
 
 
-Built with
-JavaScript
-ES6+
-Node.js
-MySQL
+# Built with
+JavaScript </br>
+ES6+ </br>
+Node.js </br>
+MySQL </br>
