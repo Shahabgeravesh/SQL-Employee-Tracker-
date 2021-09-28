@@ -39,3 +39,6 @@ JavaScript </br>
 ES6+ </br>
 Node.js </br>
 MySQL </br>
+
+
+You need to add your database password in index.js file in order to get the application to work 
